@@ -12,7 +12,7 @@ In contrast, binary search takes advantage of the movie's order. You could fast-
 
 This approach reduces the search space with each check, making it faster and more efficient than linear search.
 
-<video src="/home/macdonald/Desktop/Binary Search/bs-anim.mp4"></video>
+<video src="bs-anim.mp4"></video>
 
 Binary search can be implemented either recursively or iteratively. In this tutorial, we'll focus on the iterative implementation.
 

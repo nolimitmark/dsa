@@ -35,7 +35,7 @@ There are 2 main types of linked lists, namely:
 
 **Singly Linked Lists**: In a singly linked list, each node contains two parts: the data it stores and a pointer to the next node in the sequence. This allows traversal in one direction—from the first node to the last—by following the next pointer of each node. The nodes are not stored contiguously in memory, but the structure ensures a linear traversal from start to end.
 
-![[Diagram Here]](/home/macdonald/Desktop/LinkedLists/singly-ll.png)
+![[Diagram Here]](singly-ll.png)
 
 **Doubly Linked Lists**: Doubly linked lists function similarly to singly linked lists, but with an added feature: each node contains an additional pointer to the previous node. This allows traversal in both directions, meaning you can start at the end of the list and move backward to the beginning by following the previous pointers, or move forward by following the next pointers.
 
@@ -88,7 +88,7 @@ If the current head node is `None`, create a new node `new_node` with the data y
 2. Create a new node `new_node` with the data.
 3. Set the `next` pointer of `last_node` to `new_node`.
 
-![](/home/macdonald/Desktop/LinkedLists/singly-ll-append.png)
+![](singly-ll-append.png)
 
 **Doubly Linked List**:
 
@@ -122,7 +122,7 @@ If the target index is `0`, create a new node `new_node` with the data you want 
 4. Set `new_node.next` to `next_node`.
 5. Set `current_node.next` to `new_node`.
 
-![](/home/macdonald/Desktop/LinkedLists/singly-ll-insert.png)
+![](singly-ll-insert.png)
 
 **Doubly Linked List**:
 
@@ -158,7 +158,7 @@ If the target index is `0`, update the head node to point to the next node of th
 2. Store the node to be deleted which is the `current_node` next node (`node_to_delete`) and its next node (`new_next_node`).
 3. Set `current_node.next` to `new_next_node`.
 
-![[Diagram Here]](/home/macdonald/Desktop/LinkedLists/singly-ll-delete.png)
+![[Diagram Here]](singly-ll-delete.png)
 
 **Doubly Linked List**:
 
@@ -183,7 +183,7 @@ If the target index is `0`, update the head node to point to the next node of th
 
 A cycle in a linked list occurs when a node’s next pointer points back to a previous node, creating an infinite loop. This can be detected using the **Fast and Slow Pointer Technique** (Floyd’s Cycle-Finding Algorithm) or by storing visited nodes in an additional data structure.
 
-![](/home/macdonald/Desktop/LinkedLists/ll-cycle.png)
+![](ll-cycle.png)
 
 We will implement cycle detection when building our linked list.[Diagram Here]
 

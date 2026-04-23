@@ -6,7 +6,7 @@ For example, when searching for a specific book on a bookshelf, you would examin
 
 Linear search can also be adapted to meet specific needs. For instance, instead of checking for an exact match, you might search for any number greater than a given target in an array of integers.
 
-![](/home/macdonald/Desktop/Linear Search/3.png)
+![](3.png)
 
 ## **Algorithm**
 
